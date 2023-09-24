@@ -43,7 +43,7 @@ img {
 }
 
 .container {
-    max-width: 1400px;
+    max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -56,8 +56,8 @@ img {
 
 .first-right-deco {
     position: absolute;
-    top: 1348px;
-    right: 10px;
+    top: 1320px;
+    right: -200px;
 }
 
 
@@ -68,7 +68,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 64px;
+    gap: 40px;
     padding: 34px 0;
 }
 
@@ -76,14 +76,14 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 384px;
+    gap: 220px;
 }
 
 .navigation-list {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 42px;
+    gap: 35px;
 }
 
 /* .navigation-item {} */
@@ -141,7 +141,7 @@ img {
 
 .first-section .text-content {
     display: block;
-    max-width: 605px;
+    max-width: 565px;
     padding-top: 130px;
     padding-bottom: 30px;
 }
