@@ -40,6 +40,7 @@ img {
     position: relative;
     max-width: 1920px;
     margin: 0 auto;
+    scale: 0.75;
 }
 
 .container {
