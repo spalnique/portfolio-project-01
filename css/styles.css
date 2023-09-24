@@ -38,9 +38,8 @@ img {
 
 .wrapper {
     position: relative;
-    max-width: 1920px;
+    max-width: 1366px;
     margin: 0 auto;
-    scale: 0.75;
 }
 
 .container {
@@ -52,7 +51,7 @@ img {
 .first-left-deco {
     position: absolute;
     top: 757px;
-    left: 10px;
+    left: -200px;
 }
 
 .first-right-deco {
@@ -144,7 +143,7 @@ img {
     display: block;
     max-width: 605px;
     padding-top: 130px;
-    padding-bottom: 105px;
+    padding-bottom: 30px;
 }
 
 .first-section .section-title {
@@ -201,8 +200,7 @@ img {
     position: absolute;
     top: 80px;
     right: 0;
-    width: 717px;
-    height: 626px;
+    max-width: 550px;
     border-radius: 140px 0;
     z-index: 5;
 }
@@ -212,8 +210,8 @@ img {
     top: 115px;
     right: -35px;
     display: block;
-    width: 717px;
-    height: 626px;
+    width: 550px;
+    height: 481px;
     border: 2px solid #b0855b;
     border-radius: 140px 0;
     z-index: 4;
