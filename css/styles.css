@@ -217,7 +217,7 @@ img {
     border-radius: 140px 0;
 }
 
-.first-section .fog {
+.first-section .overlay {
     display: block;
     position: absolute;
     top: 80px;
@@ -410,7 +410,7 @@ img {
     border-radius: 140px 0;
 }
 
-.third-section .fog {
+.third-section .overlay {
     display: block;
     position: absolute;
     top: 80px;
@@ -510,7 +510,7 @@ img {
     border-radius: 140px 0;
 }
 
-.fourth-section .fog {
+.fourth-section .overlay {
     display: block;
     position: absolute;
     top: 80px;
