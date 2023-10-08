@@ -1,0 +1,7 @@
+<svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <symbol id="broken_line" viewBox="0 0 218 98">
+        <path d="M0 1H96.5V97H218" stroke="#E0E0E0" stroke-width="2" fill="none"/>
+    </symbol>
+  </defs>
+</svg>
