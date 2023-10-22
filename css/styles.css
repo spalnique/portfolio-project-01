@@ -330,6 +330,22 @@ img {
     color: #fff;
 }
 
+.slider-controls-container {
+    position: absolute;
+}
+
+.slider-controls-list {
+    display: flex;
+    gap: 15px;
+}
+
+.slider-controls-item {
+    width: 30px;
+    height: 30px;
+}
+
+.slider-controls {}
+
 
 /* ====== THIRD SECTION - ABOUT US ====== */
 
@@ -932,6 +948,7 @@ img {
     font-size: 18px;
     font-weight: 500;
     line-height: 1.66;
+    text-transform: capitalize;
 }
 
 .footer-section .item-link {
@@ -1008,4 +1025,13 @@ img {
 
 .footer-section .copyright-info {
     text-align: center;
+}
+
+.footer-section .copyright-info:before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100vw;
+    background-color: #C4C4C4;
+    margin-bottom: 10px;
 }
