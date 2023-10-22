@@ -27,6 +27,7 @@ h6 {
 
 a {
     text-decoration: none;
+    color: #37806B;
 }
 
 ul {
@@ -67,11 +68,23 @@ img {
     right: 120px;
 }
 
+.logo-image {
+    transition:
+        filter 150ms cubic-bezier(0.4, 0, 0.2, 1) 100ms,
+        scale 150ms cubic-bezier(0.4, 0, 0.2, 1) 100ms;
+}
 
-/* ====== HEADER ====== */
+.logo-image:hover,
+.logo-image:focus {
+    filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.3));
+    scale: 1.02;
+}
 
 
-.header-wrapper {
+/* ====== HEADER SECTION ====== */
+
+
+.header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -214,18 +227,7 @@ img {
     right: 0;
     max-width: 550px;
     border-radius: 140px 0;
-}
-
-.first-section .overlay {
-    display: block;
-    position: absolute;
-    top: 80px;
-    right: 0;
-    width: 550px;
-    height: 481px;
-    border-radius: 140px 0;
-    background-color: lightgray;
-    opacity: 0.2;
+    filter: contrast(0.8);
 }
 
 .first-section .bg-outline {
@@ -407,18 +409,7 @@ img {
     left: 0;
     max-width: 525px;
     border-radius: 140px 0;
-}
-
-.third-section .overlay {
-    display: block;
-    position: absolute;
-    top: 80px;
-    left: 0;
-    width: 525px;
-    height: 559px;
-    border-radius: 140px 0;
-    background-color: lightgray;
-    opacity: 0.2;
+    filter: contrast(0.8);
 }
 
 .third-section .bg-outline {
@@ -507,18 +498,7 @@ img {
     right: 0;
     max-width: 525px;
     border-radius: 140px 0;
-}
-
-.fourth-section .overlay {
-    display: block;
-    position: absolute;
-    top: 80px;
-    right: 0;
-    width: 525px;
-    height: 560px;
-    border-radius: 140px 0;
-    background-color: lightgray;
-    opacity: 0.2;
+    filter: contrast(0.8);
 }
 
 .fourth-section .number {
@@ -770,7 +750,9 @@ img {
     right: 15px;
 }
 
-.seventh-section .item-image {}
+.seventh-section .item-image {
+    filter: contrast(0.8);
+}
 
 .seventh-section .item-title {
     color: #212121;
@@ -903,4 +885,127 @@ img {
 .eighth-section .button:focus {
     scale: 1.02;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+
+/* ====== FOOTER SECTION ====== */
+
+
+.footer-section {
+    background-color: #F8F8F8;
+    padding: 80px 0 20px;
+    margin: 0 auto;
+}
+
+.footer-section .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.footer-section .logo-text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-section .text {
+    max-width: 300px;
+    color: #646464;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.55;
+}
+
+.footer-section .list-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.footer-section .list-title {
+    color: #212121;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.66;
+}
+
+.footer-section .item-link {
+    color: #646464;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-section .item {
+    color: #646464;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-section .quick-links-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+
+}
+
+.footer-section .company-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.footer-section .contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.footer-section .social-list {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.footer-section .social-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #D5D5D5;
+    transition:
+        box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 100ms,
+        background-color 200ms cubic-bezier(0.1, 0, 0.2, 1) 100ms;
+}
+
+.footer-section .social-button:focus,
+.footer-section .social-button:hover {
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
+    background-color: #37806B;
+}
+
+.footer-section .social-icon {
+    fill: #F8F8F8;
+}
+
+.footer-section .copyright-text {
+    color: #646464;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footer-section .copyright-info {
+    text-align: center;
 }
